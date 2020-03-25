@@ -30,7 +30,7 @@ $(document).ready(function() {
     $("#addPanel").animate({
       bottom: "+=50",
       height: "toggle"
-    }, 2000, function() {
+    }, 1500, function() {
       // Animation complete.
     });
   });
@@ -46,7 +46,7 @@ $(document).ready(function() {
     $("#subPanel").animate({
       bottom: "+=50",
       height: "toggle"
-    }, 2000, function() {
+    }, 1500, function() {
       // Animation complete.
     });
   });
@@ -62,7 +62,7 @@ $(document).ready(function() {
     $("#multiplyPanel").animate({
       bottom: "+=50",
       height: "toggle"
-    }, 2000, function() {
+    }, 1500, function() {
       // Animation complete.
     });
   });
@@ -78,7 +78,7 @@ $(document).ready(function() {
     $("#dividePanel").animate({
       bottom: "+=50",
       height: "toggle"
-    }, 2000, function() {
+    }, 1500, function() {
       // Animation complete.
     });
   });
