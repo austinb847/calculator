@@ -26,7 +26,13 @@ $(document).ready(function() {
     var result = add(number1, number2);
 
     $("#addOutput").text(result);
-    $("#addPanel").show();
+
+    $("#addPanel").animate({
+      bottom: "+=50",
+      height: "toggle"
+    }, 2000, function() {
+      // Animation complete.
+    });
   });
 
   $("form#sub").submit(function(event) {
@@ -36,7 +42,13 @@ $(document).ready(function() {
     var result = subtract(number1, number2);
 
     $("#subOutput").text(result);
-    $("#subPanel").show();
+
+    $("#subPanel").animate({
+      bottom: "+=50",
+      height: "toggle"
+    }, 2000, function() {
+      // Animation complete.
+    });
   });
 
   $("form#multiply").submit(function(event) {
@@ -46,7 +58,13 @@ $(document).ready(function() {
     var result = multiply(number1, number2);
 
     $("#multiplyOutput").text(result);
-    $("#multiplyPanel").show();
+    
+    $("#multiplyPanel").animate({
+      bottom: "+=50",
+      height: "toggle"
+    }, 2000, function() {
+      // Animation complete.
+    });
   });
 
   $("form#divide").submit(function(event) {
@@ -56,7 +74,13 @@ $(document).ready(function() {
     var result = divide(number1, number2);
 
     $("#divideOutput").text(result);
-    $("#dividePanel").show();
+    
+    $("#dividePanel").animate({
+      bottom: "+=50",
+      height: "toggle"
+    }, 2000, function() {
+      // Animation complete.
+    });
   });
 });
 
